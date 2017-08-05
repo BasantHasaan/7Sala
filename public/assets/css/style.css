@@ -1,0 +1,73 @@
+body{
+	font-size: 12px;
+}
+hr{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.content-wrapper{
+padding: 10px;
+    background-color: #fff;
+}
+
+input[type="text"],select, input[type="password"]{
+	border: 1px solid #ccc;
+	padding: 0 7px;
+	height: 25px;
+	border-radius: 3px;
+	margin: 3px;
+	width: 100%;
+	max-width: 300px;
+	border: 1px solid #ccc;
+}
+
+input[type="password"]{
+height: 34px;
+}
+
+input[type="file"]{
+	margin: 10px 3px;
+
+}
+
+.btn-expand{
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+.col-sm-2, .col-sm-10{
+	line-height: 2;
+}
+
+.man:after{
+	content: "*";
+	size: 18px;
+	color: #ff0000;
+}
+
+.small{
+	width: 50px;
+}
+
+.med{
+	width: 75px;
+}
+
+.large{
+	width: 100px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	padding: 2px;
+	font-size: 12px;
+}
+
+.glyphicon-remove{
+	color:#ff0000;
+	padding-left: 10px;
+}
+
+.glyphicon-edit{
+	color:green;
+	padding-left: 10px;
+}
